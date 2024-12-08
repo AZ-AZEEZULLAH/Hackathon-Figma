@@ -10,8 +10,8 @@ const slides = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo.",
     buttonText: "Shop Now",
-    chairImage: "/sofa1.png", // Replace with the correct path
-    lampImage: "/lamp.png", // Replace with the correct path
+    chairImage: "/sofa1.png", 
+    lampImage: "/lamp.png", 
   },
   {
     title: "Modern Chair Designs for Your Home",

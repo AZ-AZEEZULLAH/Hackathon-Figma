@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-// import Header from "./components/Header/Header";
-// import Navbar from "./components/Navbar/Navbar";
-// import Footer from "./components/Footer/Footer";
 import Header from "./componants/Header/header";
 import Navbar from "./componants/Navbar/Navbar";
 import Footer from "./componants/Footer/Footer";
@@ -26,14 +23,9 @@ export default function RootLayout({
         {/* Include Header and Navbar here */}
         <Header />
         <Navbar />
-
-
-
-
-
-      
         {/* Render children passed to the layout */}
         {children}
+        <Footer />
       </body>
     </html>
   );
